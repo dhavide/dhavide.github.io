@@ -1,0 +1,180 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	padding:0;
+	margin:0;
+	border:none;
+	background: rgba(0,0,0,1);
+	}
+	
+/*HEADER*/
+#name_plate{
+	width: 100%;
+	max-height: 450px;
+	margin: 0;
+	text-align: center;
+	line-height:none;
+	padding:120px 0 120px 0;
+	background-image: url(../images/header_grass.jpg);
+  	background-repeat: no-repeat;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+	background-position:top;
+	}
+	
+h1{
+	color: #ffffff;
+	font-size: 3.85em;
+	
+	}
+
+h4{
+	font-size: 1.25em;
+	font-weight: 400;
+	margin:0;
+	padding:0;
+	line-height:normal;
+	color: #f6f1ea;
+	
+	}		
+
+/*NAVIGATION*/
+.navbar.affix {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    width: 100%
+}
+
+#nav_overide{
+	margin:0;
+	padding:0;
+	
+	}
+#navbar_indent{
+	margin-left: 5%;
+	}	
+
+/*ABOUT*/
+#about_main{
+	width: 100%;
+	height: auto;
+	background-color:#f6f1ea;
+	padding:5em;
+	font-size: 1.25em;
+	margin:0;
+	
+	}
+
+
+/*CURRENT ARTICLES*/	
+#current_articles{
+	width: auto;
+	text-align: center;
+	margin:auto auto;
+	padding:5em;
+	background:#FFFFFF;
+	}
+
+#current_articles h3{
+	font-size: 1em;
+	font-weight: 600;
+	color: #000000;
+	padding:20px 0 0 0;
+	margin:0;
+	}
+	
+.img-circle{
+	margin:auto auto;
+	
+	}	
+	
+	
+/*RESEARCH HIGHLIGHTS*/
+
+#research_highlights{
+	width: auto;
+	text-align: left;
+	margin:auto auto;
+	padding:5em;
+	background:#FFFFFF;
+	}
+
+#research_highlights h3{
+	font-size: 1em;
+	font-weight: 600;
+	color: #000000;
+	padding:20px 0 0 0;
+	margin:0;
+	}
+
+.non_ref_pubs{
+	margin:0 0 5% 0;
+	}	
+	
+/*TEACHING*/
+
+#current_education{
+	width: auto;
+	text-align: left;
+	margin:auto auto;
+	padding:5em;
+	background:#FFFFFF;
+	
+	}
+
+
+/*CV*/
+
+.reverse_head{
+	background-color:#f6f1ea;
+	padding:15px;
+	margin-top:.5em;
+	color: #000000;
+
+	
+	
+	}
+
+	
+/*FOOTER*/
+#footer_line{
+	border: none;
+    height: 10px;
+    /* Set the hr color */
+    color: #f6f1ea;/* old IE */
+    background-color: #f6f1ea; /* Modern Browsers */
+	margin:0;
+	padding:0;
+	
+	}
+	
+#footer{
+	width: 100%;
+	height: auto;
+	margin:auto auto;
+	background-color:#000000;
+	color:#FFFFFF;
+	font-size:.75em;
+	padding: 5em;
+	}
+	
+#copyright_bar{
+	border:0;
+	float:left;
+	
+	}	
+	
+#social_gallery{
+	margin:0;
+	padding:0;
+	border:0;
+	float:right;
+	}
+	
+.btn-social-icon{
+	color: #7a7a7a;
+	padding: 0 5px 0 5px;
+	margin:0 0 25px 0;
+	}
